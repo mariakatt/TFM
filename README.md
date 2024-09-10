@@ -27,8 +27,8 @@ Este proyecto implementa un modelo de reconocimiento de entidades (NER) utilizan
 
 3. **Estructura de carpetas**:
     - `TFM`: Carpeta principal en Google Drive.
-    - `archivos_entrenamiento`: Contiene el archivo `masterfile_train.txt` con los datos de entrenamiento.
-    - `archivos_validacion`: Contiene el archivo `masterfile_val.txt` con los datos de validación.
+    - `archivos_entrenamiento`: Contiene el archivo `train.txt` con los datos de entrenamiento.
+    - `archivos_validacion`: Contiene el archivo `val.txt` con los datos de validación.
 
 ### Entrenamiento del Modelo
 
@@ -44,10 +44,6 @@ El modelo entrenado se guarda en la carpeta especificada en Google Drive (`/TFM/
 
 El modelo se evalúa utilizando un conjunto de datos de validación. Los resultados de la evaluación se imprimen para analizar la efectividad del modelo.
 
-```python
-results = my_evaluate(nlp, data_val)
-print(results)
-```
 
 ### Uso del Modelo
 
