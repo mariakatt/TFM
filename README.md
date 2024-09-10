@@ -8,7 +8,7 @@ Este proyecto implementa un modelo de reconocimiento de entidades (NER) utilizan
 
 - Python 3.7+
 - `spaCy`
-- `es_core_news_sm` (modelo en español para spaCy)
+- `es_core_news_lg` (modelo en español para spaCy)
 - Google Colab (opcional, pero recomendado para montar Google Drive)
 
 ### Instalación
